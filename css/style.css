@@ -17,8 +17,12 @@ body {
 }
 
 #wrapper {
-	width: 710px;
+	max-width: 710px;
 	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
 }
 
 header, article {
@@ -80,7 +84,7 @@ aside {
 #share-facebook {}
 #share-twitter {position: relative; top: -1px;}
 .twitter-share-button {
-	font-size: 11px;	
+	font-size: 11px;
 	color: #000;
 }
 
